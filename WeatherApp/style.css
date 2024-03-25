@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    background: linear-gradient(135deg, lightblue, white);
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background-size: cover;
+}
+
+p {
+    font-family: 'Calibri', sans-serif;
+}
+
+.title {
+    padding: 20px;
+    font-family:'Calibri', sans-serif;
+    color: black;
+}
+
+/*-------------------------------*\
+    SEARCH
+\*-------------------------------*/
+
+.search {
+    width: 50%;
+    background: white;
+    padding: 35px 10px;
+    text-align: center;
+    border-radius: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+.search input {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.search button {
+
+}
+
+/*-------------------------------*\
+    CONTAINER
+\*-------------------------------*/
+
+.container {
+    background: rgba(255, 255, 255, 0.753);
+    padding: 20px;
+    width: 650px;
+    margin-top: 15px;
+    border-radius: 25px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.weather-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+
+.weather-icon > .icon:not(.sun){
+    visibility: hidden;
+  }
+
+.section2 {
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+.temperature {
+    font-size: 100px;
+    font-family: 'Calibri', sans-serif;
+    font-weight: 50;
+}
+
+.sun-icon {
+    height: 140px;
+    width: 140px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*-------------------------------*\
+    HOURLY FORECAST
+\*-------------------------------*/
+
+.container2 {
+    background: rgba(255, 255, 255, 0.753);
+    border-radius: 25px;
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.timeslots {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    height: 150px;
+    width: 120px;
+    border-radius: 20px;
+    margin: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
